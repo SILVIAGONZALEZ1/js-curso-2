@@ -1,34 +1,93 @@
-header {
-  text-align: center;
-  font-size: 30px;
-  color: #279EFF;
-}
-
-main, html {
+/* Reset básico */
+* {
   margin: 0;
   padding: 0;
-  height: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #0C356A;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 2rem;
+  color: #444;
 }
 
 .container {
-  text-align: center;
-  color: #279EFF;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h2 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input[type="number"] {
+  padding: 5px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
 }
 
 .button {
-  padding: 10px 20px;
-  margin: 10px;
-  font-size: 24px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 1rem;
   border: none;
-  background-color: #3498db;
-  cursor: pointer;
   border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .button:hover {
-  background-color: #2980b9;
+  background-color: #0056b3;
 }
+
+p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.Funciones {
+  margin-bottom: 30px;
+}
+
+br {
+  margin-bottom: 10px;
+}
+
+.linea-horizontal {
+  border: none;
+  border-top: 2px solid #333; /* Color y grosor de la línea */
+  margin: 20px 0; /* Espacio arriba y abajo de la línea */
+}
+
+
